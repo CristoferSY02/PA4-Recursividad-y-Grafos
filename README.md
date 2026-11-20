@@ -1,10 +1,9 @@
 # README — Evaluación PA4
 
-**Curso:** ALGORITMO Y ESTRUCTURA DE DATOS BASADOS EN INTELIGENCIA ARTIFICIAL[cite: 6]  
-**Código:** 30710[cite: 6]  
-**Evaluación:** PA4[cite: 6]  
-**Repositorio:** `PA4-Recursividad-y-Grafos`[cite: 10]  
-
+> **Curso:** ALGORITMO Y ESTRUCTURA DE DATOS BASADOS EN INTELIGENCIA ARTIFICIAL  
+> **Código:** 4134  
+> **Evaluación:** PA4  
+> **Equipo:** Equipo 6
 ---
 
 ## 1. Integrantes
