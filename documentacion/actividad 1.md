@@ -1,5 +1,4 @@
 # Actividad 1 — Recursividad
-##Luis Cristofer Siñani Yauri
 
 ## Descripción
 Implementación en Java (`PA4/src/main/java/actividad1.java`) que solicita un número entero por consola y calcula su factorial de forma recursiva.
