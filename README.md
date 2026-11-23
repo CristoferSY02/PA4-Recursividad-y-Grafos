@@ -35,15 +35,15 @@ Todos los integrantes desarrollamos nuestra sección en el documento Word compar
   
 * **Actividad 2. Ordenamiento recursivo (Carlos)**  
   Plantea un algoritmo recursivo de ordenamiento aplicable a un conjunto de datos del caso, describe paso a paso cómo se divide el problema y cómo se obtiene el resultado final, y explica la utilidad del enfoque recursivo en este contexto.  
-  *Documentación / archivos:* Ver `Actividad2` y el informe en PDF[cite: 7, 10].
+ **Documentación complementaria:** [Ver Actividad 2](documentacion/actividad%202.md)
 
 * **Actividad 3. Modelado del problema mediante grafos (Luisanni — Parte 1 / Milthom — Parte 2)**  
   Representa el problema mediante un grafo identificando nodos, aristas y sentido de las conexiones, propone situaciones adecuadas para DFS y BFS, y explica el aporte del algoritmo heurístico A\* en una búsqueda orientada a una meta.  
-  *Documentación / archivos:* Ver `Actividad3` y el informe en PDF[cite: 7, 10].
-
+  **Documentación complementaria:** [Ver Actividad 3](documentacion/actividad%203.md)
+  
 * **Actividad 4. Argumentación final (Ana)**  
   Redacta una conclusión técnica comparando las alternativas planteadas, justifica qué solución conviene implementar y relaciona la propuesta con aplicaciones básicas de inteligencia artificial vistas en el curso[cite: 6, 7].  
-  *Documentación / archivos:* Ver `Actividad4` y el informe en PDF[cite: 7, 10].
+  **Documentación complementaria:** [Ver Actividad 4](documentacion/actividad%204.md)
 
 ---
 
