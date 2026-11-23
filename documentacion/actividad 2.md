@@ -113,16 +113,4 @@ Este algoritmo es útil porque permite organizar los tiempos estimados de las di
 
 De esta manera, el sistema inteligente puede mostrar primero las rutas que requieren menos tiempo de recorrido y facilitar la elección de los estudiantes.
 
-## 7. Eficiencia del algoritmo
 
-Merge Sort tiene una complejidad temporal de:
-
-**O(n log n)**
-
-Esto significa que puede ordenar conjuntos de datos de manera eficiente, incluso cuando aumenta la cantidad de rutas.
-
-## 8. Conclusión
-
-Mediante esta actividad aprendimos a utilizar el algoritmo Merge Sort aplicando el concepto de recursividad.
-
-Comprobamos que el algoritmo permite ordenar correctamente los tiempos de las rutas del campus universitario, facilitando la organización de la información y ayudando al sistema inteligente a presentar alternativas de desplazamiento más convenientes.
