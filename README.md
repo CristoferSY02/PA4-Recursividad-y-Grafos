@@ -31,7 +31,7 @@ Todos los integrantes desarrollamos nuestra sección en el documento Word compar
 
 * **Actividad 1. Recursividad aplicada (Christopher)**  
   Explica qué es la recursividad, su relación con el principio *divide y vencerás*, el algoritmo recursivo aplicado al caso del campus y el análisis del caso base, caso recursivo y condición de finalización.  
-  *Documentación / archivos:* Ver `Actividad1` y el informe en PDF.
+  **Documentación complementaria:** [Ver Actividad 1](documentacion/actividad1.md)
 
 * **Actividad 2. Ordenamiento recursivo (Carlos)**  
   Plantea un algoritmo recursivo de ordenamiento aplicable a un conjunto de datos del caso, describe paso a paso cómo se divide el problema y cómo se obtiene el resultado final, y explica la utilidad del enfoque recursivo en este contexto.  
