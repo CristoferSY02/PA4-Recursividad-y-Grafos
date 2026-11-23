@@ -70,7 +70,7 @@ Todos los integrantes desarrollamos nuestra sección en el documento Word compar
 
 En esta sección se presentan las capturas de pantalla que evidencian el desarrollo, la ejecución y los resultados de las actividades.
 
-- [Actividad 1](evidencias/actividad1.png)
+- [Actividad 1](evidencias/actividad1.PNG)
 - [Actividad 2](evidencias/actividad2.png)
 - [Actividad 3 – Parte 1](evidencias/actividad3_parte1.png)
 - [Actividad 3 – Parte 2](evidencias/actividad3_parte2.png)
