@@ -58,3 +58,57 @@ Todos los integrantes desarrollamos nuestra sección en el documento Word compar
 1. **Clonar el repositorio:** ejecutar el siguiente comando en CMD o terminal desde la carpeta donde se desea guardar el proyecto:
    ```bash
    git clone [https://github.com/CristoferSY02/PA4-Recursividad-y-Grafos.git](https://github.com/CristoferSY02/PA4-Recursividad-y-Grafos.git)
+2. **Abrir el proyecto:** iniciar Apache NetBeans, seleccionar `File > Open Project` y elegir la carpeta descargada.
+
+3. **Revisar el código:** comprobar los archivos Java correspondientes a las cuatro actividades y la documentación complementaria.
+
+4. **Ejecutar las actividades:** abrir la clase de prueba correspondiente a cada actividad y ejecutarla para comprobar los resultados en la consola.
+
+5. **Verificar los resultados:** revisar que las operaciones implementadas funcionen de acuerdo con los requisitos de cada actividad.
+
+## 4. Evidencias
+
+En esta sección se presentan las capturas de pantalla que evidencian el desarrollo, la ejecución y los resultados de las actividades.
+
+- [Actividad 1](evidencias/actividad1.png)
+- [Actividad 2](evidencias/actividad2.png)
+- [Actividad 3 – Parte 1](evidencias/actividad3_parte1.png)
+- [Actividad 3 – Parte 2](evidencias/actividad3_parte2.png)
+- [Actividad 4](evidencias/Actividad4.png)
+
+Las evidencias se encuentran organizadas en la carpeta `evidencias` del repositorio.
+
+## 5. Matriz de participación
+
+| **Integrante** | **Desarrollo** | **Pruebas** | **Documentación** | **Exposición** | **Evidencia de participación** |
+|---|---|---|---|---|---|
+| Luis Cristofer Siñani Yauri | Alta | Alta | Alta | Sí | Apertura del video, presentación del equipo y contexto del caso; desarrollo y exposición de la Actividad 1 (recursividad aplicada y divide y vencerás); creación del repositorio en GitHub, gestión de colaboradores, redacción del README, código en Java (NetBeans), conclusión personal y revisión general en el Word compartido. |
+| Carlos César Jiménez Jauregui | Alta | Alta | Alta | Sí | Desarrollo, pruebas y exposición de la Actividad 2 (ordenamiento recursivo); aporte de código en Java (NetBeans) en GitHub, conclusión personal, redacción de su sección y revisión integral del documento en Word. |
+| Luisanni Andreina Oviedo Woscichowski | Alta | Alta | Alta | Sí | Modelado del grafo (nodos, aristas y sentido de conexiones), propuesta de escenarios para DFS y BFS y exposición de la primera parte de la Actividad 3; código en Java (NetBeans) en GitHub, conclusión personal y revisión del Word compartido. |
+| Milthom Wilbert Florez Somcco | Alta | Alta | Alta | Sí | Análisis y exposición del algoritmo heurístico A* en la segunda parte de la Actividad 3, diseño de presentación/grafo en Canva, código en Java (NetBeans) en GitHub, conclusión personal y revisión del documento en Word. |
+| Geraldine Ana Paola Gómez Atanacio | Alta | Alta | Alta | Sí | Desarrollo y exposición de la Actividad 4 (argumentación final y relación con IA), cierre y conclusiones generales del video, apoyo en Canva, subida del video a YouTube, código en Java (NetBeans) en GitHub, conclusión personal y revisión del Word compartido. |
+
+## 6. Video de exposición
+
+**Video de YouTube:** [[ENLACE VIDEO](link video aqui)]()
+
+**Contenido del video:**
+
+- Presentación del equipo (todos con cámaras prendidas).
+- Explicación de cómo se resolvió cada actividad.
+- Demostración de ejecución del programa.
+- Justificación de las decisiones tomadas.
+
+## 7. Conclusiones
+
+**Conclusión 1:** Con este trabajo comprendimos cómo funciona la recursividad y su relación con el principio de divide y vencerás para resolver tareas dentro del módulo de orientación del campus. También aprendimos a identificar correctamente el caso base, el caso recursivo y la condición de finalización para evitar desbordamientos de pila y procesar estructuras de datos de manera eficiente.
+
+**Conclusión 2:** Al implementar el ordenamiento recursivo, comprendimos cómo dividir un conjunto de datos del campus en subproblemas más pequeños hasta obtener una secuencia ordenada paso a paso. Esto nos permitió reconocer la utilidad del enfoque recursivo para estructurar y consultar información institucional de forma clara y optimizada.
+
+**Conclusión 3:** Al modelar el campus mediante grafos, aprendimos a representar sus ubicaciones y conexiones a través de nodos, aristas y sentidos de recorrido. Asimismo, identificamos en qué situaciones conviene aplicar búsquedas en profundidad (DFS) para explorar rutas completas y búsquedas en anchura (BFS) para encontrar caminos con menor cantidad de tramos.
+
+**Conclusión 4:** Al analizar el algoritmo heurístico A*, comprendimos cómo las funciones heurísticas optimizan la búsqueda orientada a una meta dentro del campus al priorizar las rutas más prometedoras. Esto nos permitió diferenciar las búsquedas no informadas de las informadas y valorar su impacto en el rendimiento de los sistemas de navegación.
+
+**Conclusión 5:** Al integrar la recursividad y los grafos en la argumentación final, comprendimos cómo justificar técnicamente la mejor alternativa de recorrido según el contexto y su relación con aplicaciones básicas de inteligencia artificial. Asimismo, reforzamos nuestras habilidades de programación en Java, el control de versiones en GitHub y la importancia del trabajo colaborativo en equipo.
+
+---
