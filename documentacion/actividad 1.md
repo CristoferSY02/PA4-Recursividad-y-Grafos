@@ -1,4 +1,4 @@
-## 1. ACTIVIDAD 1. RECURSIVIDAD
+## ACTIVIDAD 1: RECURSIVIDAD
 
 ### 1.1. Planteamiento y funcionamiento del algoritmo recursivo
 La recursividad es una técnica en la que una función o método se invoca a sí mismo para resolver un problema dividiéndolo en subproblemas más pequeños hasta alcanzar una condición de parada. Este enfoque se relaciona con el principio de divide y vencerás, ya que descompone una tarea general en pasos sucesivos hasta llegar a un caso base que detiene el proceso y evita un bucle infinito o un error de desbordamiento de pila (`StackOverflowError`).
@@ -13,22 +13,16 @@ En el módulo inteligente de orientación dentro del campus, la recursividad se 
 | **Condición de finalización** | El parámetro `indice` incrementa de `1` en `1` en cada llamada, asegurando que el método termine al encontrar el lugar o alcanzar el final del arreglo[cite: 12]. |
 
 ### 1.2. Pseudocódigo
-```text
+
 Algoritmo buscarLugar(nombre, indice)
-Inicio
     // Caso base 1: fin del arreglo sin coincidencias
     Si indice >= longitud(lugares) entonces
         Retornar -1
-    Fin Si
-
     // Caso base 2: ubicación encontrada
     Si lugares[indice] == nombre entonces
         Retornar indice
-    Fin Si
-
     // Caso recursivo: avanzar a la siguiente ubicación
     Retornar buscarLugar(nombre, indice + 1)
-Fin
 
 ### 1.3. Traza y ejemplo de ejecución
 Si el usuario ingresa "Cafeteria", el llamado inicial buscarLugar("Cafeteria", 0) realiza el siguiente recorrido:
