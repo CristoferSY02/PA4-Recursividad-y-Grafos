@@ -1,22 +1,33 @@
-# ACTIVIDAD 1: RECURSIVIDAD 
+## Actividad 1: Recursividad aplicada
 
-## Introducción
-En esta actividad trabajamos con **recursividad**, una técnica donde una función se llama a sí misma para resolver un problema dividiéndolo en partes más pequeñas hasta llegar a un punto de parada.
-En `PA4/src/main/java/actividad1.java`, implementamos el cálculo del factorial de un número entero `n` (`n!`), que consiste en multiplicar `n` por todos los números enteros positivos anteriores hasta llegar a `1` (por ejemplo, `5! = 5 × 4 × 3 × 2 × 1 = 120`).
-Como cada llamada recursiva espera el resultado de la siguiente para terminar de multiplicarse, es fundamental tener un **caso base** que detenga el proceso y evite un bucle infinito.
+### Introducción
+En esta actividad trabajamos con la **recursividad**, una técnica de programación en la que una función o método se invoca a sí mismo para resolver un problema dividiéndolo en instancias más pequeñas hasta alcanzar un punto de parada. Esta lógica se relaciona directamente con el principio de **divide y vencerás**, ya que permite descomponer una tarea mayor en subproblemas manejables, resolver cada caso de forma progresiva y combinar los resultados para obtener la respuesta final.
 
-## 1. Caso base y llamada recursiva
-La recursividad funciona en dos partes clave:
-1. **Caso base:** Detiene la recursión cuando `n <= 1`, devolviendo `1` (ya que `1! = 1` y `0! = 1`).
-2. **Llamada recursiva:** Cuando `n > 1`, multiplica `n` por el resultado de `factorial(n - 1)`, reduciendo el problema en `1` en cada paso.
+Para aplicar este enfoque al módulo inteligente de orientación dentro del campus, en el archivo `PA4/src/main/java/Actividad1.java` implementamos el método recursivo `buscarLugar(String nombre, int indice)`. Este algoritmo recorre el arreglo de ubicaciones registradas (`Entrada`, `Biblioteca`, `Cafeteria`, `Laboratorio` y `Aulas`) para validar si el destino ingresado por el usuario pertenece al campus y retornar el índice (nodo) correspondiente.
 
-Si no existiera el caso base, el método seguiría llamándose (`factorial(0)`, `factorial(-1)`, etc.) hasta provocar un error de desbordamiento de pila (`StackOverflowError`).
+### 1. Casos base, llamada recursiva y condición de finalización
+El funcionamiento recursivo del método `buscarLugar` se estructura en tres elementos fundamentales:
 
-### Algoritmo Factorial(n)
+1. **Casos base (condiciones de parada):**
+   * **Ubicación no encontrada:** Cuando `indice >= lugares.length`, significa que se revisaron todas las posiciones del arreglo sin éxito, por lo que retorna `-1`.
+   * **Ubicación encontrada:** Cuando `lugares[indice].equalsIgnoreCase(nombre)`, la búsqueda se detiene y retorna el `indice` actual correspondiente al nodo del destino.
+2. **Llamada recursiva:** Cuando aún quedan elementos por evaluar y no existe coincidencia en la posición actual, el método invoca a `buscarLugar(nombre, indice + 1)`, delegando la búsqueda al siguiente índice del arreglo.
+3. **Condición de finalización:** En cada llamada recursiva el parámetro `indice` se incrementa en `1` hasta encontrar el lugar buscado o alcanzar `lugares.length`. Esto garantiza que el algoritmo siempre converja hacia un caso base y evita ciclos infinitos o un desbordamiento de pila (`StackOverflowError`).
+
+### Pseudocódigo
 ```text
+Algoritmo buscarLugar(nombre, indice)
 Inicio
-    Si n <= 1 entonces
-        Retornar 1
+    // Caso base 1: fin del arreglo sin coincidencias
+    Si indice >= longitud(lugares) entonces
+        Retornar -1
     Fin Si
-    Retornar n * Factorial(n - 1)
+
+    // Caso base 2: ubicación encontrada
+    Si lugares[indice] == nombre entonces
+        Retornar indice
+    Fin Si
+
+    // Caso recursivo: avanzar al siguiente índice
+    Retornar buscarLugar(nombre, indice + 1)
 Fin
