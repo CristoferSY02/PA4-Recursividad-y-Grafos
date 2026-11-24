@@ -4,11 +4,7 @@
  */
 
 public class actividad2 {
-    
-
-package com.mycompany.ordenamientorecursivo;
-
-public class actividad2{
+   
 
     public static void mergeSort(int[] datos, int inicio, int fin) {
 
