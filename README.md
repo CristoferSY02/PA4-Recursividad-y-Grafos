@@ -39,19 +39,19 @@ Se implementó el método recursivo `buscarLugar(nombre, indice)` para validar s
 
 Se desarrolló el algoritmo Merge Sort para ordenar un conjunto de tiempos de recorrido. Se aplicó el proceso de división de los datos en grupos más pequeños y su posterior combinación hasta obtener los valores ordenados de menor a mayor.
 
-**Documentación complementaria:** [Ver Actividad 1](documentacion/actividad2.md)
+**Documentación complementaria:** [Ver Actividad 2](documentacion/actividad2.md)
 
 ### Actividad 3. Modelado del problema mediante grafos
 
 Se representó el campus mediante un grafo, identificando sus nodos, aristas y conexiones. Se implementaron y analizaron los recorridos DFS y BFS, además del algoritmo heurístico A* para orientar la búsqueda hacia un destino considerando los costos de recorrido y una estimación del costo restante.
 
-**Documentación complementaria:** [Ver Actividad 1](documentacion/actividad3.md)
+**Documentación complementaria:** [Ver Actividad 3](documentacion/actividad3.md)
 
 ### Actividad 4. Argumentación final
 
 Se compararon las alternativas desarrolladas mediante sus resultados y criterios de evaluación. Se justificó la elección de A* como la opción más conveniente para el módulo de orientación en el escenario evaluado y se relacionó la propuesta con aplicaciones básicas de inteligencia artificial.
 
-**Documentación complementaria:** [Ver Actividad 1](documentacion/actividad4.md)
+**Documentación complementaria:** [Ver Actividad 4](documentacion/actividad4.md)
 
 ## 3. Cómo ejecutar o revisar
 
