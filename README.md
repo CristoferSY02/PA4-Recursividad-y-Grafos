@@ -4,111 +4,128 @@
 > **Código:** 4134  
 > **Evaluación:** PA4  
 > **Equipo:** Equipo 6
----
 
 ## 1. Integrantes
 
-| Integrante | Responsabilidad principal | Aporte realizado |
-| :--- | :--- | :--- |
-| **(Luis Cristofer Siñani Yauri)** | Actividad 1 – Recursividad aplicada, apertura, repositorio y `README.md` | Saludo y presentación del equipo, contexto del caso, desarrollo y exposición de la Actividad 1 (recursividad, relación con *divide y vencerás*, algoritmo recursivo y análisis de casos), creación y gestión del repositorio en GitHub, `README.md`, código en Java (NetBeans), Word compartido, conclusión y video con cámara prendida. |
-| **Carlos César Jiménez Jauregui** | Actividad 2 – Ordenamiento recursivo | Desarrollo y exposición de la Actividad 2 (algoritmo recursivo de ordenamiento, proceso paso a paso y utilidad en el contexto), código en Java (NetBeans), Word compartido, conclusión y video con cámara prendida. |
-| **Luisanni Andreina Oviedo Woscichowski** | Actividad 3 (Parte 1) – Grafo, DFS y BFS | Desarrollo y exposición de la primera parte de la Actividad 3 (representación del grafo con nodos, aristas y sentido de conexiones, además de situaciones para DFS y BFS), código en Java (NetBeans), Word compartido, conclusión y video con cámara prendida. |
-| **Milthom Wilbert Florez Somcco** | Actividad 3 (Parte 2) – Algoritmo heurístico A\* | Desarrollo y exposición de la segunda parte de la Actividad 3 (explicación del algoritmo heurístico A\* en una búsqueda orientada a una meta), código en Java (NetBeans), Word compartido, conclusión y video con cámara prendida. |
-| **Geraldine Ana Paola Gomez Atanacio** | Actividad 4 – Argumentación final y cierre | Desarrollo y exposición de la Actividad 4 (comparación de alternativas, justificación técnica de la solución recomendada y relación con aplicaciones básicas de IA), cierre general con conclusiones y despedida, código en Java (NetBeans), Word compartido y video con cámara prendida. |
-
----
+| **Integrante** | **Responsabilidad principal** | **Aporte realizado** |
+|---|---|---|
+| Luis Cristofer Siñani Yauri | Actividad 1 – Recursividad aplicada | Desarrolló el algoritmo recursivo para validar las ubicaciones del campus, explicó su funcionamiento y analizó los casos base y recursivo. También gestionó el repositorio en GitHub y elaboró el README. |
+| Carlos César Jiménez Jauregui | Actividad 2 – Ordenamiento recursivo | Desarrolló el algoritmo Merge Sort, incluyendo la división de los datos, el proceso de combinación y la obtención del resultado ordenado. |
+| Luisanni Andreina Oviedo Woscichowski | Actividad 3 – Grafo, DFS y BFS | Desarrolló la representación del campus mediante nodos y aristas y el análisis de los algoritmos DFS y BFS. |
+| Milthom Wilbert Florez Somcco | Actividad 3 – Algoritmo heurístico A* | Desarrolló el análisis del algoritmo A* y su aplicación en la búsqueda de rutas orientadas hacia un destino. |
+| Geraldine Ana Paola Gomez Atanacio | Actividad 4 – Argumentación final | Desarrolló la comparación de las alternativas, la justificación técnica de la solución recomendada y su relación con aplicaciones básicas de inteligencia artificial. |
 
 ## 2. Descripción y objetivo
 
-**Problema:**  
-Una institución desea construir un módulo inteligente de orientación dentro del campus. El sistema debe ordenar información, analizar rutas posibles entre ubicaciones y justificar qué camino o recorrido resulta más conveniente según el contexto.
+**Problema:**
 
-**Objetivo:**  
-Proponer una solución clara y fundamentada para el módulo inteligente de orientación dentro del campus integrando recursividad, ordenamiento recursivo, grafos y aplicaciones básicas de inteligencia artificial, comparando alternativas de recorrido y sustentando las decisiones técnicas tomadas[cite: 6, 7].
+Una institución desea construir un módulo inteligente de orientación dentro de un campus. El sistema debe organizar información, analizar rutas posibles entre ubicaciones y justificar qué camino o recorrido resulta más conveniente según el contexto.
 
-**Solución desarrollada:**  
-Todos los integrantes desarrollamos nuestra sección en el documento Word compartido, subimos nuestro aporte y código en **Java (NetBeans)** al repositorio en GitHub, redactamos nuestra conclusión, revisamos el trabajo completo y participamos en el video de exposición con cámaras prendidas.
+**Objetivo:**
 
-* **Actividad 1. Recursividad aplicada (Christopher)**  
-  Explica qué es la recursividad, su relación con el principio *divide y vencerás*, el algoritmo recursivo aplicado al caso del campus y el análisis del caso base, caso recursivo y condición de finalización.  
- **Documentación complementaria:** [Ver Actividad 1](documentacion/actividad%201.md)
-  
-* **Actividad 2. Ordenamiento recursivo (Carlos)**  
-  Plantea un algoritmo recursivo de ordenamiento aplicable a un conjunto de datos del caso, describe paso a paso cómo se divide el problema y cómo se obtiene el resultado final, y explica la utilidad del enfoque recursivo en este contexto.  
- **Documentación complementaria:** [Ver Actividad 2](documentacion/actividad%202.md)
+Proponer una solución para el módulo de orientación del campus mediante la aplicación de recursividad, ordenamiento recursivo, grafos y algoritmos de búsqueda, comparando alternativas de recorrido y justificando las decisiones técnicas.
 
-* **Actividad 3. Modelado del problema mediante grafos (Luisanni — Parte 1 / Milthom — Parte 2)**  
-  Representa el problema mediante un grafo identificando nodos, aristas y sentido de las conexiones, propone situaciones adecuadas para DFS y BFS, y explica el aporte del algoritmo heurístico A\* en una búsqueda orientada a una meta.  
-  **Documentación complementaria:** [Ver Actividad 3](documentacion/actividad%203.md)
-  
-* **Actividad 4. Argumentación final (Ana)**  
-  Redacta una conclusión técnica comparando las alternativas planteadas, justifica qué solución conviene implementar y relaciona la propuesta con aplicaciones básicas de inteligencia artificial vistas en el curso[cite: 6, 7].  
-  **Documentación complementaria:** [Ver Actividad 4](documentacion/actividad%204.md)
+**Solución desarrollada:**
 
----
+Se desarrolló una solución en Java que integra diferentes técnicas de algoritmos y estructuras de datos para representar las ubicaciones del campus, validar destinos, ordenar tiempos de recorrido y buscar rutas entre los lugares. Se utilizaron Apache NetBeans para el desarrollo y ejecución de los programas y GitHub para organizar y almacenar el código fuente, la documentación y las evidencias.
+
+### Actividad 1. Recursividad aplicada
+
+Se implementó el método recursivo `buscarLugar(nombre, indice)` para validar si una ubicación ingresada pertenece al campus y obtener su posición dentro del arreglo de lugares. Se identificaron los casos base, el caso recursivo y la condición de finalización.
+
+**Documentación complementaria:** [Ver Actividad 1](documentación/actividad%201.md)
+
+### Actividad 2. Ordenamiento recursivo
+
+Se desarrolló el algoritmo Merge Sort para ordenar un conjunto de tiempos de recorrido. Se aplicó el proceso de división de los datos en grupos más pequeños y su posterior combinación hasta obtener los valores ordenados de menor a mayor.
+
+**Documentación complementaria:** [Ver Actividad 2](documentación/actividad%202.md)
+
+### Actividad 3. Modelado del problema mediante grafos
+
+Se representó el campus mediante un grafo, identificando sus nodos, aristas y conexiones. Se implementaron y analizaron los recorridos DFS y BFS, además del algoritmo heurístico A* para orientar la búsqueda hacia un destino considerando los costos de recorrido y una estimación del costo restante.
+
+**Documentación complementaria:** [Ver Actividad 3](documentación/actividad%203.md)
+
+### Actividad 4. Argumentación final
+
+Se compararon las alternativas desarrolladas mediante sus resultados y criterios de evaluación. Se justificó la elección de A* como la opción más conveniente para el módulo de orientación en el escenario evaluado y se relacionó la propuesta con aplicaciones básicas de inteligencia artificial.
+
+**Documentación complementaria:** [Ver Actividad 4](documentación/actividad%204.md)
 
 ## 3. Cómo ejecutar o revisar
 
 ### Requisitos previos
-- **Apache NetBeans** y un **JDK** compatible con el proyecto en Java.
-- **Git**, si se desea clonar el repositorio desde la terminal o CMD.
-- Editor de texto o lector de PDF para revisar el código, documentación e informe completo.
 
-### Pasos para revisar o ejecutar el proyecto
-1. **Clonar el repositorio:** ejecutar el siguiente comando en CMD o terminal desde la carpeta donde se desea guardar el proyecto:
+- Apache NetBeans.
+- JDK compatible con la configuración del proyecto.
+- Git, si se desea clonar el repositorio desde la terminal.
+
+### Pasos para revisar el proyecto
+
+1. **Clonar el repositorio:** ejecutar el siguiente comando en CMD o terminal desde la carpeta donde se desea guardar el proyecto.
+
    ```bash
-   git clone [https://github.com/CristoferSY02/PA4-Recursividad-y-Grafos.git](https://github.com/CristoferSY02/PA4-Recursividad-y-Grafos.git)
-2. **Abrir el proyecto:** iniciar Apache NetBeans, seleccionar `File > Open Project` y elegir la carpeta descargada.
+   git clone https://github.com/CristoferSY02/PA4-Recursividad-y-Grafos.git
+   ```
 
-3. **Revisar el código:** comprobar los archivos Java correspondientes a las cuatro actividades y la documentación complementaria.
+2. **Abrir el proyecto:** iniciar Apache NetBeans, seleccionar `File > Open Project` y ubicar la carpeta `PA4` descargada del repositorio.
 
-4. **Ejecutar las actividades:** abrir la clase de prueba correspondiente a cada actividad y ejecutarla para comprobar los resultados en la consola.
+3. **Revisar el código:** ingresar a la carpeta `PA4/src/main/java` para consultar los archivos Java correspondientes a las actividades.
 
-5. **Verificar los resultados:** revisar que las operaciones implementadas funcionen de acuerdo con los requisitos de cada actividad.
+4. **Ejecutar los programas:** abrir la clase principal correspondiente a cada actividad y utilizar la opción `Run` de NetBeans para comprobar su funcionamiento.
+
+5. **Revisar la documentación:** consultar la carpeta `documentación`, donde se encuentran los archivos Markdown con el desarrollo de las actividades.
+
+**Nota:** El repositorio contiene los archivos fuente Java, el proyecto de NetBeans, la documentación complementaria y las evidencias organizadas en sus respectivas carpetas.
 
 ## 4. Evidencias
 
-En esta sección se presentan las capturas de pantalla que evidencian el desarrollo, la ejecución y los resultados de las actividades.
+En esta sección se presentan las capturas de pantalla que permiten verificar el desarrollo y la ejecución de las actividades.
 
 - [Actividad 1](evidencias/actividad1.PNG)
 - [Actividad 2](evidencias/actividad2.png)
-- [Actividad 3 – Parte 1](evidencias/actividad3_parte1.png)
-- [Actividad 3 – Parte 2](evidencias/actividad3_parte2.png)
-- [Actividad 4](evidencias/Actividad4.png)
+- [Actividad 3](evidencias/actividad3.PNG)
+- [Actividad 4](evidencias/actividad4.png)
 
 Las evidencias se encuentran organizadas en la carpeta `evidencias` del repositorio.
 
 ## 5. Matriz de participación
 
-| **Integrante** | **Desarrollo** | **Pruebas** | **Documentación** | **Exposición** | **Evidencia de participación** |
-|---|---|---|---|---|---|
-| Luis Cristofer Siñani Yauri | Alta | Alta | Alta | Sí | Apertura del video, presentación del equipo y contexto del caso; desarrollo y exposición de la Actividad 1 (recursividad aplicada y divide y vencerás); creación del repositorio en GitHub, gestión de colaboradores, redacción del README, código en Java (NetBeans), conclusión personal y revisión general en el Word compartido. |
-| Carlos César Jiménez Jauregui | Alta | Alta | Alta | Sí | Desarrollo, pruebas y exposición de la Actividad 2 (ordenamiento recursivo); aporte de código en Java (NetBeans) en GitHub, conclusión personal, redacción de su sección y revisión integral del documento en Word. |
-| Luisanni Andreina Oviedo Woscichowski | Alta | Alta | Alta | Sí | Modelado del grafo (nodos, aristas y sentido de conexiones), propuesta de escenarios para DFS y BFS y exposición de la primera parte de la Actividad 3; código en Java (NetBeans) en GitHub, conclusión personal y revisión del Word compartido. |
-| Milthom Wilbert Florez Somcco | Alta | Alta | Alta | Sí | Análisis y exposición del algoritmo heurístico A* en la segunda parte de la Actividad 3, diseño de presentación/grafo en Canva, código en Java (NetBeans) en GitHub, conclusión personal y revisión del documento en Word. |
-| Geraldine Ana Paola Gómez Atanacio | Alta | Alta | Alta | Sí | Desarrollo y exposición de la Actividad 4 (argumentación final y relación con IA), cierre y conclusiones generales del video, apoyo en Canva, subida del video a YouTube, código en Java (NetBeans) en GitHub, conclusión personal y revisión del Word compartido. |
+| **Integrante** | **Desarrollo** | **Pruebas** | **Documentación** | **Participación** |
+|---|---|---|---|---|
+| Luis Cristofer Siñani Yauri | Alta | Alta | Alta | Desarrollo de la Actividad 1, implementación del algoritmo recursivo, gestión del repositorio y elaboración del README. |
+| Carlos César Jiménez Jauregui | Alta | Alta | Alta | Desarrollo de la Actividad 2, implementación y comprobación del algoritmo Merge Sort. |
+| Luisanni Andreina Oviedo Woscichowski | Alta | Alta | Alta | Desarrollo de la representación del grafo y de los algoritmos DFS y BFS correspondientes a la primera parte de la Actividad 3. |
+| Milthom Wilbert Florez Somcco | Alta | Alta | Alta | Desarrollo y análisis del algoritmo heurístico A* correspondiente a la segunda parte de la Actividad 3. |
+| Geraldine Ana Paola Gomez Atanacio | Alta | Alta | Alta | Desarrollo de la Actividad 4, comparación de alternativas y justificación técnica de la solución recomendada. |
 
 ## 6. Video de exposición
 
-**Video de YouTube:** [[ENLACE VIDEO](link video aqui)]()
-
-**Contenido del video:**
-
-- Presentación del equipo (todos con cámaras prendidas).
-- Explicación de cómo se resolvió cada actividad.
-- Demostración de ejecución del programa.
-- Justificación de las decisiones tomadas.
+**Video de YouTube:** [Ver video de exposición](https://www.youtube.com/watch?v=jPsz1uESUMA)
 
 ## 7. Conclusiones
 
-**Conclusión 1:** Con este trabajo comprendimos cómo funciona la recursividad y su relación con el principio de divide y vencerás para resolver tareas dentro del módulo de orientación del campus. También aprendimos a identificar correctamente el caso base, el caso recursivo y la condición de finalización para evitar desbordamientos de pila y procesar estructuras de datos de manera eficiente.
+**Conclusión 1 – Actividad 1: Recursividad aplicada**
 
-**Conclusión 2:** Al implementar el ordenamiento recursivo, comprendimos cómo dividir un conjunto de datos del campus en subproblemas más pequeños hasta obtener una secuencia ordenada paso a paso. Esto nos permitió reconocer la utilidad del enfoque recursivo para estructurar y consultar información institucional de forma clara y optimizada.
+La implementación de la recursividad permitió comprender cómo un método puede llamarse a sí mismo para resolver una tarea mediante pasos sucesivos. El método `buscarLugar()` permitió validar las ubicaciones del campus e identificar la función de los casos base, el caso recursivo y la condición de finalización.
 
-**Conclusión 3:** Al modelar el campus mediante grafos, aprendimos a representar sus ubicaciones y conexiones a través de nodos, aristas y sentidos de recorrido. Asimismo, identificamos en qué situaciones conviene aplicar búsquedas en profundidad (DFS) para explorar rutas completas y búsquedas en anchura (BFS) para encontrar caminos con menor cantidad de tramos.
+**Conclusión 2 – Actividad 2: Ordenamiento recursivo**
 
-**Conclusión 4:** Al analizar el algoritmo heurístico A*, comprendimos cómo las funciones heurísticas optimizan la búsqueda orientada a una meta dentro del campus al priorizar las rutas más prometedoras. Esto nos permitió diferenciar las búsquedas no informadas de las informadas y valorar su impacto en el rendimiento de los sistemas de navegación.
+La aplicación de Merge Sort permitió comprender cómo dividir un conjunto de datos en partes más pequeñas y combinarlas para obtener una secuencia ordenada. Las pruebas realizadas permitieron comprobar el ordenamiento de los tiempos de recorrido de menor a mayor.
 
-**Conclusión 5:** Al integrar la recursividad y los grafos en la argumentación final, comprendimos cómo justificar técnicamente la mejor alternativa de recorrido según el contexto y su relación con aplicaciones básicas de inteligencia artificial. Asimismo, reforzamos nuestras habilidades de programación en Java, el control de versiones en GitHub y la importancia del trabajo colaborativo en equipo.
+**Conclusión 3 – Actividad 3: Grafos, DFS y BFS**
+
+La representación del campus mediante un grafo permitió organizar las ubicaciones como nodos y sus conexiones como aristas. Mediante DFS y BFS se identificaron diferentes formas de recorrer el grafo y encontrar caminos entre los lugares.
+
+**Conclusión 4 – Actividad 3: Algoritmo A\***
+
+El análisis de A* permitió comprender cómo utilizar el costo acumulado y una estimación del costo restante para orientar la búsqueda hacia un destino. La prueba realizada permitió comparar su recorrido con los resultados obtenidos mediante DFS y BFS.
+
+**Conclusión 5 – Actividad 4: Argumentación final**
+
+La comparación de los algoritmos permitió justificar la elección de A* para el módulo de orientación en el escenario evaluado. También se reconoció la aplicación de técnicas de búsqueda y toma de decisiones relacionadas con la inteligencia artificial, integrando los conocimientos desarrollados durante las actividades.
 
 ---
+
+**Última actualización:** 25/11/2026
