@@ -33,25 +33,25 @@ Se desarrolló una solución en Java que integra diferentes técnicas de algorit
 
 Se implementó el método recursivo `buscarLugar(nombre, indice)` para validar si una ubicación ingresada pertenece al campus y obtener su posición dentro del arreglo de lugares. Se identificaron los casos base, el caso recursivo y la condición de finalización.
 
-**Documentación complementaria:** [Ver Actividad 1](documentación/actividad%201.md)
+**Documentación complementaria:** [Ver Actividad 1](documentacion/actividad1.md)
 
 ### Actividad 2. Ordenamiento recursivo
 
 Se desarrolló el algoritmo Merge Sort para ordenar un conjunto de tiempos de recorrido. Se aplicó el proceso de división de los datos en grupos más pequeños y su posterior combinación hasta obtener los valores ordenados de menor a mayor.
 
-**Documentación complementaria:** [Ver Actividad 2](documentación/actividad%202.md)
+**Documentación complementaria:** [Ver Actividad 1](documentacion/actividad2.md)
 
 ### Actividad 3. Modelado del problema mediante grafos
 
 Se representó el campus mediante un grafo, identificando sus nodos, aristas y conexiones. Se implementaron y analizaron los recorridos DFS y BFS, además del algoritmo heurístico A* para orientar la búsqueda hacia un destino considerando los costos de recorrido y una estimación del costo restante.
 
-**Documentación complementaria:** [Ver Actividad 3](documentación/actividad%203.md)
+**Documentación complementaria:** [Ver Actividad 1](documentacion/actividad3.md)
 
 ### Actividad 4. Argumentación final
 
 Se compararon las alternativas desarrolladas mediante sus resultados y criterios de evaluación. Se justificó la elección de A* como la opción más conveniente para el módulo de orientación en el escenario evaluado y se relacionó la propuesta con aplicaciones básicas de inteligencia artificial.
 
-**Documentación complementaria:** [Ver Actividad 4](documentación/actividad%204.md)
+**Documentación complementaria:** [Ver Actividad 1](documentacion/actividad4.md)
 
 ## 3. Cómo ejecutar o revisar
 
@@ -77,7 +77,6 @@ Se compararon las alternativas desarrolladas mediante sus resultados y criterios
 
 5. **Revisar la documentación:** consultar la carpeta `documentación`, donde se encuentran los archivos Markdown con el desarrollo de las actividades.
 
-**Nota:** El repositorio contiene los archivos fuente Java, el proyecto de NetBeans, la documentación complementaria y las evidencias organizadas en sus respectivas carpetas.
 
 ## 4. Evidencias
 
