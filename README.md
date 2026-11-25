@@ -28,7 +28,13 @@ Proponer una solución para el módulo de orientación del campus mediante la ap
 **Solución desarrollada:**
 
 Se desarrolló una solución en Java que integra diferentes técnicas de algoritmos y estructuras de datos para representar las ubicaciones del campus, validar destinos, ordenar tiempos de recorrido y buscar rutas entre los lugares. Se utilizaron Apache NetBeans para el desarrollo y ejecución de los programas y GitHub para organizar y almacenar el código fuente, la documentación y las evidencias.
+**Documentación complementaria:** [Ver Actividad 1](https://github.com/CristoferSY02/PA4-Recursividad-y-Grafos/blob/principal/documentaci%C3%B3n/actividad%201.md)
 
+**Documentación complementaria:** [Ver Actividad 2](https://github.com/CristoferSY02/PA4-Recursividad-y-Grafos/blob/principal/documentaci%C3%B3n/actividad%202.md)
+
+**Documentación complementaria:** [Ver Actividad 3](https://github.com/CristoferSY02/PA4-Recursividad-y-Grafos/blob/principal/documentaci%C3%B3n/actividad%203.md)
+
+**Documentación complementaria:** [Ver Actividad 4](https://github.com/CristoferSY02/PA4-Recursividad-y-Grafos/blob/principal/documentaci%C3%B3n/actividad%204.md)
 ### Actividad 1. Recursividad aplicada
 
 Se implementó el método recursivo `buscarLugar(nombre, indice)` para validar si una ubicación ingresada pertenece al campus y obtener su posición dentro del arreglo de lugares. Se identificaron los casos base, el caso recursivo y la condición de finalización.
