@@ -12,11 +12,11 @@ Las alternativas desarrolladas cumplen diferentes funciones dentro del módulo i
 | BFS | Buscar una ruta recorriendo el grafo por niveles. | O(V²) con matriz de adyacencia. | Encuentra una ruta con el menor número de conexiones en un grafo no ponderado. | No garantiza el menor costo cuando las conexiones tienen diferentes pesos. |
 | A* | Buscar una ruta considerando el costo acumulado y la estimación del costo restante. | Depende del grafo, la heurística y la implementación. | Orienta la búsqueda hacia el destino y permite encontrar una ruta de menor costo cuando se cumplen las condiciones de la heurística. | Requiere definir una heurística adecuada y realizar cálculos adicionales durante la búsqueda. |
 
-**Nota:** V representa la cantidad de vértices, E la cantidad de aristas y k la cantidad de resultados que se ordenan. Las complejidades de DFS y BFS corresponden a la implementación desarrollada con matriz de adyacencia, no a una implementación con listas de adyacencia. Los costos de los tramos y la heurística utilizados en la prueba son datos simulados.
+**Nota:** V representa la cantidad de vértices y k la cantidad de resultados que se ordenan. Las complejidades de DFS y BFS corresponden a la implementación desarrollada con matriz de adyacencia, no a una implementación con listas de adyacencia. Los costos de los tramos y la heurística utilizados en la prueba son datos simulados.
 
 ## 4.2. Solución recomendada y justificación
 
-Se recomienda implementar el algoritmo A* para el módulo de orientación del campus, debido a que permite buscar rutas considerando el costo acumulado desde el punto de partida y una estimación del costo restante hasta el destino. Para ello, utiliza la función de evaluación f(n) = g(n) + h(n), que orienta la búsqueda hacia la meta.
+Se recomienda implementar el algoritmo A* para el módulo de orientación del campus, debido a que permite buscar rutas considerando el costo acumulado desde el punto de partida y una estimación del costo restante hasta el destino. Para ello, utiliza la función de evaluación `f(n) = g(n) + h(n)`, que orienta la búsqueda hacia la meta.
 
 En la prueba desarrollada se consideró como punto de partida la Entrada y como destino las Aulas. DFS encontró la ruta Entrada → Biblioteca → Laboratorio → Aulas, con un costo total de 9 unidades. Por su parte, BFS y A* encontraron la ruta Entrada → Cafetería → Aulas, con un costo de 5 unidades.
 
@@ -34,10 +34,10 @@ También se relaciona con la toma de decisiones, porque el programa compara los 
 
 Por tanto, la propuesta aplica conceptos de búsqueda y toma de decisiones mediante algoritmos, utilizando A* como alternativa recomendada para resolver el problema de orientación dentro del campus.
 
-## 4.4. Conclusión grupal
+## 4.4. Conclusión técnica
 
 El desarrollo de las actividades permitió integrar diferentes técnicas de algoritmos y estructuras de datos para plantear una solución al problema de orientación dentro del campus. La recursividad permite validar los lugares mediante llamadas sucesivas; Merge Sort permite ordenar los resultados de las rutas; y los grafos representan las ubicaciones y sus conexiones para aplicar los algoritmos DFS, BFS y A*.
 
-En la prueba realizada, DFS encontró una ruta de costo 9, mientras que BFS y A* encontraron una ruta de costo 5. Aunque ambos obtuvieron el mismo recorrido, A* exploró menos nodos, por lo que ocupó el primer lugar en el ranking generado mediante Merge Sort.
+En la prueba realizada, DFS encontró una ruta de costo 9, mientras que BFS y A* obtuvieron la misma ruta con un costo de 5. Aunque ambos alcanzaron el mismo resultado, A* exploró menos nodos, por lo que ocupó el primer lugar en el ranking generado mediante Merge Sort.
 
 En conjunto, estas técnicas permiten representar el problema, explorar las conexiones y comparar las alternativas de recorrido. Los resultados muestran que A* es la opción más conveniente para el módulo de orientación en el escenario evaluado.
