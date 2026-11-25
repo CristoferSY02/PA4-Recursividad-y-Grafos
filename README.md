@@ -28,36 +28,30 @@ Proponer una solución para el módulo de orientación del campus mediante la ap
 **Solución desarrollada:**
 
 Se desarrolló una solución en Java que integra diferentes técnicas de algoritmos y estructuras de datos para representar las ubicaciones del campus, validar destinos, ordenar tiempos de recorrido y buscar rutas entre los lugares. Se utilizaron Apache NetBeans para el desarrollo y ejecución de los programas y GitHub para organizar y almacenar el código fuente, la documentación y las evidencias.
-**Documentación complementaria:** [Ver Actividad 1](documentacion/actividad%201.md)
 
-**Documentación complementaria:** [Ver Actividad 2](documentacion/actividad%202.md)
-
-**Documentación complementaria:** [Ver Actividad 3](documentacion/actividad%203.md)
-
-**Documentación complementaria:** [Ver Actividad 4](documentacion/actividad%204.md)
 ### Actividad 1. Recursividad aplicada
 
 Se implementó el método recursivo `buscarLugar(nombre, indice)` para validar si una ubicación ingresada pertenece al campus y obtener su posición dentro del arreglo de lugares. Se identificaron los casos base, el caso recursivo y la condición de finalización.
 
-**Documentación complementaria:** [Ver Actividad 1](documentaci%C3%B3n/actividad%201.md)
+**Documentación complementaria:** [Ver Actividad 1](documentacion/actividad%201.md)
 
 ### Actividad 2. Ordenamiento recursivo
 
 Se desarrolló el algoritmo Merge Sort para ordenar un conjunto de tiempos de recorrido. Se aplicó el proceso de división de los datos en grupos más pequeños y su posterior combinación hasta obtener los valores ordenados de menor a mayor.
 
-**Documentación complementaria:** [Ver Actividad 2](documentaci%C3%B3n/actividad%202.md)
+**Documentación complementaria:** [Ver Actividad 2](documentacion/actividad%202.md)
 
 ### Actividad 3. Modelado del problema mediante grafos
 
 Se representó el campus mediante un grafo, identificando sus nodos, aristas y conexiones. Se implementaron y analizaron los recorridos DFS y BFS, además del algoritmo heurístico A* para orientar la búsqueda hacia un destino considerando los costos de recorrido y una estimación del costo restante.
 
-**Documentación complementaria:** [Ver Actividad 3](documentaci%C3%B3n/actividad%203.md)
+**Documentación complementaria:** [Ver Actividad 3](documentacion/actividad%203.md)
 
 ### Actividad 4. Argumentación final
 
 Se compararon las alternativas desarrolladas mediante sus resultados y criterios de evaluación. Se justificó la elección de A* como la opción más conveniente para el módulo de orientación en el escenario evaluado y se relacionó la propuesta con aplicaciones básicas de inteligencia artificial.
 
-**Documentación complementaria:** [Ver Actividad 4](documentaci%C3%B3n/actividad%204.md)
+**Documentación complementaria:** [Ver Actividad 4](documentacion/actividad%204.md)
 
 ## 3. Cómo ejecutar o revisar
 
